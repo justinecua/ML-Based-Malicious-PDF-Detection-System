@@ -1,0 +1,25 @@
+*.pyc
+__pycache__/
+PDFMalwareProject/.env
+
+# Ignore large files
+*.keras
+*.csv
+*.so
+*.pkl
+
+# Ignore environment files and directories
+PDFMalware-env/
+
+# Ignore specific large files
+PDFMalwareProject/training.csv
+PDFMalwareProject/best_model.keras
+PDFMalwareProject/PDFMalware/models12/main_csv/ensemble_model.pkl
+PDFMalware-env/lib/python3.10/site-packages/clang/native/libclang.so
+PDFMalware-env/lib/python3.10/site-packages/tensorflow/libtensorflow_cc.so.2
+PDFMalware-env/lib/python3.10/site-packages/nvidia/nccl/lib/libnccl.so.2
+PDFMalware-env/lib/python3.10/site-packages/xgboost/lib/libxgboost.so
+echo "./PDFMalwareProject/distilbert_obfuscation_detector/best_model.h5" >> .gitignore
+echo "./PDFMalwareProject/distilbert_obfuscation_detector2/tf_model.h5" >> .gitignore
+echo "./PDFMalwareProject/PDFMalware/models19/js/updated js obfuscation detector lstm.h5" >> .gitignore
+
